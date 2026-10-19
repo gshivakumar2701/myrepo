@@ -1,0 +1,48 @@
+/* 1. Global Page Styles */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif; /* Clean, modern font */
+  background-color: #f4f7f6;               /* Light grey-green background */
+  color: #333333;                          /* Dark grey text for easy reading */
+  line-height: 1.6;                        /* Gives text breathing room */
+  margin: 0;
+  padding: 40px 20px;                      /* Adds padding around the page content */
+}
+
+/* 2. Main Layout Container */
+.container {
+  max-width: 800px;                        /* Limits width so lines aren't too long */
+  margin: 0 auto;                          /* Centers the container horizontally */
+  background: #ffffff;                     /* White background for the content card */
+  padding: 30px;
+  border-radius: 8px;                      /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/* Soft drop shadow */
+}
+
+/* 3. Typography Styles */
+h1 {
+  color: #1a365d;                          /* Deep blue for the main heading */
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* 4. Interactive Components (Button) */
+.btn-primary {
+  display: inline-block;
+  background-color: #3182ce;               /* Vibrant blue button background */
+  color: #ffffff;                          /* White text */
+  padding: 10px 20px;
+  text-decoration: none;                   /* Removes underline from links */
+  border-radius: 5px;                      /* Smooth corners */
+  font-weight: bold;
+  transition: background-color 0.2s ease;  /* Smooth color transition on hover */
+}
+
+/* Button Hover State */
+.btn-primary:hover {
+  background-color: #2b6cb0;               /* Darker blue when mouse hovers over it */
+}
